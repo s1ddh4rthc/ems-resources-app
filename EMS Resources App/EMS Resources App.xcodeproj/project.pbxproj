@@ -22,6 +22,13 @@
 		56153BE327A4BC1600DA47CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 56153BE227A4BC1600DA47CF /* Podfile */; };
 		56153BE427A4BC1600DA47CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 56153BE227A4BC1600DA47CF /* Podfile */; };
 		56153BE527A4BC1600DA47CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 56153BE227A4BC1600DA47CF /* Podfile */; };
+		56153BEB27A4CAD200DA47CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */; };
+		56153BEC27A4CAD200DA47CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */; };
+		56153BED27A4CAD200DA47CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */; };
+		56153BF027A50DC300DA47CF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 56153BEF27A50DC300DA47CF /* FirebaseAnalytics */; };
+		56153BF227A50DC300DA47CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 56153BF127A50DC300DA47CF /* FirebaseAuth */; };
+		56153BF427A50DC300DA47CF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 56153BF327A50DC300DA47CF /* FirebaseDatabase */; };
+		56153BF627A50DC300DA47CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 56153BF527A50DC300DA47CF /* FirebaseFirestore */; };
 		8B01F3BC327B124667DA8D5E /* Pods_EMS_Resources_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D429923D6FC798381DD38FE8 /* Pods_EMS_Resources_AppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +67,7 @@
 		56153BCB27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMS_Resources_AppUITests.swift; sourceTree = "<group>"; };
 		56153BCD27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMS_Resources_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		56153BE227A4BC1600DA47CF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		6057D48E90A26A0F9FA33455 /* Pods-EMS Resources AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources AppTests.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources AppTests/Pods-EMS Resources AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		608C080E2951DA56030D6172 /* Pods_EMS_Resources_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMS_Resources_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE8722FF192A57E019FC164 /* Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56153BF027A50DC300DA47CF /* FirebaseAnalytics in Frameworks */,
+				56153BF227A50DC300DA47CF /* FirebaseAuth in Frameworks */,
+				56153BF427A50DC300DA47CF /* FirebaseDatabase in Frameworks */,
+				56153BF627A50DC300DA47CF /* FirebaseFirestore in Frameworks */,
 				44580BE103266E46D11A16C5 /* Pods_EMS_Resources_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +153,7 @@
 				56153BB827A4B85C00DA47CF /* Info.plist */,
 				56153BB027A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld */,
 				56153BE227A4BC1600DA47CF /* Podfile */,
+				56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */,
 			);
 			path = "EMS Resources App";
 			sourceTree = "<group>";
@@ -172,7 +185,6 @@
 				E2BD16FD954710291A681C9D /* Pods-EMS Resources AppTests.debug.xcconfig */,
 				6057D48E90A26A0F9FA33455 /* Pods-EMS Resources AppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -193,6 +205,12 @@
 			dependencies = (
 			);
 			name = "EMS Resources App";
+			packageProductDependencies = (
+				56153BEF27A50DC300DA47CF /* FirebaseAnalytics */,
+				56153BF127A50DC300DA47CF /* FirebaseAuth */,
+				56153BF327A50DC300DA47CF /* FirebaseDatabase */,
+				56153BF527A50DC300DA47CF /* FirebaseFirestore */,
+			);
 			productName = "EMS Resources App";
 			productReference = 56153BA427A4B85A00DA47CF /* EMS Resources App.app */;
 			productType = "com.apple.product-type.application";
@@ -268,6 +286,9 @@
 				Base,
 			);
 			mainGroup = 56153B9B27A4B85A00DA47CF;
+			packageReferences = (
+				56153BEE27A50DC200DA47CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 56153BA527A4B85A00DA47CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -286,6 +307,7 @@
 			files = (
 				56153BB727A4B85C00DA47CF /* LaunchScreen.storyboard in Resources */,
 				56153BB427A4B85C00DA47CF /* Assets.xcassets in Resources */,
+				56153BEB27A4CAD200DA47CF /* GoogleService-Info.plist in Resources */,
 				56153BE327A4BC1600DA47CF /* Podfile in Resources */,
 				56153BAF27A4B85A00DA47CF /* Main.storyboard in Resources */,
 			);
@@ -296,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56153BE427A4BC1600DA47CF /* Podfile in Resources */,
+				56153BEC27A4CAD200DA47CF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56153BE527A4BC1600DA47CF /* Podfile in Resources */,
+				56153BED27A4CAD200DA47CF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,6 +777,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56153BEE27A50DC200DA47CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56153BEF27A50DC300DA47CF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56153BEE27A50DC200DA47CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		56153BF127A50DC300DA47CF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56153BEE27A50DC200DA47CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		56153BF327A50DC300DA47CF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56153BEE27A50DC200DA47CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		56153BF527A50DC300DA47CF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56153BEE27A50DC200DA47CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		56153BB027A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld */ = {
