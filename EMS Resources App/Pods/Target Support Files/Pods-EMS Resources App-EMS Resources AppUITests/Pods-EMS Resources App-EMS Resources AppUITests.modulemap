@@ -1,0 +1,6 @@
+framework module Pods_EMS_Resources_App_EMS_Resources_AppUITests {
+  umbrella header "Pods-EMS Resources App-EMS Resources AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

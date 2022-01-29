@@ -1,0 +1,6 @@
+framework module Pods_EMS_Resources_AppTests {
+  umbrella header "Pods-EMS Resources AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

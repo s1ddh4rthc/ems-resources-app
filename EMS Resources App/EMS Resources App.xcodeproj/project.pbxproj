@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ED5914D1228A4A8636F3172 /* Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB7B1CC214D900E318C22DD /* Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework */; };
+		44580BE103266E46D11A16C5 /* Pods_EMS_Resources_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608C080E2951DA56030D6172 /* Pods_EMS_Resources_App.framework */; };
+		56153BA827A4B85A00DA47CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BA727A4B85A00DA47CF /* AppDelegate.swift */; };
+		56153BAA27A4B85A00DA47CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BA927A4B85A00DA47CF /* SceneDelegate.swift */; };
+		56153BAC27A4B85A00DA47CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BAB27A4B85A00DA47CF /* ViewController.swift */; };
+		56153BAF27A4B85A00DA47CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56153BAD27A4B85A00DA47CF /* Main.storyboard */; };
+		56153BB227A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56153BB027A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld */; };
+		56153BB427A4B85C00DA47CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56153BB327A4B85C00DA47CF /* Assets.xcassets */; };
+		56153BB727A4B85C00DA47CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56153BB527A4B85C00DA47CF /* LaunchScreen.storyboard */; };
+		56153BC227A4B85C00DA47CF /* EMS_Resources_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BC127A4B85C00DA47CF /* EMS_Resources_AppTests.swift */; };
+		56153BCC27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BCB27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift */; };
+		56153BCE27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BCD27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift */; };
+		56153BE327A4BC1600DA47CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 56153BE227A4BC1600DA47CF /* Podfile */; };
+		56153BE427A4BC1600DA47CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 56153BE227A4BC1600DA47CF /* Podfile */; };
+		56153BE527A4BC1600DA47CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 56153BE227A4BC1600DA47CF /* Podfile */; };
+		8B01F3BC327B124667DA8D5E /* Pods_EMS_Resources_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D429923D6FC798381DD38FE8 /* Pods_EMS_Resources_AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56153BBE27A4B85C00DA47CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56153B9C27A4B85A00DA47CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56153BA327A4B85A00DA47CF;
+			remoteInfo = "EMS Resources App";
+		};
+		56153BC827A4B85C00DA47CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56153B9C27A4B85A00DA47CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56153BA327A4B85A00DA47CF;
+			remoteInfo = "EMS Resources App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1200C8823379D15B6B0891B7 /* Pods-EMS Resources App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources App/Pods-EMS Resources App.release.xcconfig"; sourceTree = "<group>"; };
+		281484259D89550892592B84 /* Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56153BA427A4B85A00DA47CF /* EMS Resources App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMS Resources App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56153BA727A4B85A00DA47CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56153BA927A4B85A00DA47CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56153BAB27A4B85A00DA47CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56153BAE27A4B85A00DA47CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56153BB127A4B85A00DA47CF /* EMS_Resources_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EMS_Resources_App.xcdatamodel; sourceTree = "<group>"; };
+		56153BB327A4B85C00DA47CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56153BB627A4B85C00DA47CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56153BB827A4B85C00DA47CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56153BBD27A4B85C00DA47CF /* EMS Resources AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EMS Resources AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56153BC127A4B85C00DA47CF /* EMS_Resources_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMS_Resources_AppTests.swift; sourceTree = "<group>"; };
+		56153BC727A4B85C00DA47CF /* EMS Resources AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EMS Resources AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56153BCB27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMS_Resources_AppUITests.swift; sourceTree = "<group>"; };
+		56153BCD27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMS_Resources_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56153BE227A4BC1600DA47CF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		6057D48E90A26A0F9FA33455 /* Pods-EMS Resources AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources AppTests.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources AppTests/Pods-EMS Resources AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		608C080E2951DA56030D6172 /* Pods_EMS_Resources_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMS_Resources_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE8722FF192A57E019FC164 /* Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BB7B1CC214D900E318C22DD /* Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D429923D6FC798381DD38FE8 /* Pods_EMS_Resources_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMS_Resources_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BD16FD954710291A681C9D /* Pods-EMS Resources AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources AppTests.debug.xcconfig"; path = "Target Support Files/Pods-EMS Resources AppTests/Pods-EMS Resources AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD131C797FEFD39E8530C467 /* Pods-EMS Resources App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App.debug.xcconfig"; path = "Target Support Files/Pods-EMS Resources App/Pods-EMS Resources App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56153BA127A4B85A00DA47CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44580BE103266E46D11A16C5 /* Pods_EMS_Resources_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56153BBA27A4B85C00DA47CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01F3BC327B124667DA8D5E /* Pods_EMS_Resources_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56153BC427A4B85C00DA47CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED5914D1228A4A8636F3172 /* Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3044C42C0B9210CCB83820C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				608C080E2951DA56030D6172 /* Pods_EMS_Resources_App.framework */,
+				8BB7B1CC214D900E318C22DD /* Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework */,
+				D429923D6FC798381DD38FE8 /* Pods_EMS_Resources_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56153B9B27A4B85A00DA47CF = {
+			isa = PBXGroup;
+			children = (
+				56153BA627A4B85A00DA47CF /* EMS Resources App */,
+				56153BC027A4B85C00DA47CF /* EMS Resources AppTests */,
+				56153BCA27A4B85C00DA47CF /* EMS Resources AppUITests */,
+				56153BA527A4B85A00DA47CF /* Products */,
+				718A4C5099501655C059B750 /* Pods */,
+				3044C42C0B9210CCB83820C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56153BA527A4B85A00DA47CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56153BA427A4B85A00DA47CF /* EMS Resources App.app */,
+				56153BBD27A4B85C00DA47CF /* EMS Resources AppTests.xctest */,
+				56153BC727A4B85C00DA47CF /* EMS Resources AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56153BA627A4B85A00DA47CF /* EMS Resources App */ = {
+			isa = PBXGroup;
+			children = (
+				56153BA727A4B85A00DA47CF /* AppDelegate.swift */,
+				56153BA927A4B85A00DA47CF /* SceneDelegate.swift */,
+				56153BAB27A4B85A00DA47CF /* ViewController.swift */,
+				56153BAD27A4B85A00DA47CF /* Main.storyboard */,
+				56153BB327A4B85C00DA47CF /* Assets.xcassets */,
+				56153BB527A4B85C00DA47CF /* LaunchScreen.storyboard */,
+				56153BB827A4B85C00DA47CF /* Info.plist */,
+				56153BB027A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld */,
+				56153BE227A4BC1600DA47CF /* Podfile */,
+			);
+			path = "EMS Resources App";
+			sourceTree = "<group>";
+		};
+		56153BC027A4B85C00DA47CF /* EMS Resources AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56153BC127A4B85C00DA47CF /* EMS_Resources_AppTests.swift */,
+			);
+			path = "EMS Resources AppTests";
+			sourceTree = "<group>";
+		};
+		56153BCA27A4B85C00DA47CF /* EMS Resources AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56153BCB27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift */,
+				56153BCD27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift */,
+			);
+			path = "EMS Resources AppUITests";
+			sourceTree = "<group>";
+		};
+		718A4C5099501655C059B750 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD131C797FEFD39E8530C467 /* Pods-EMS Resources App.debug.xcconfig */,
+				1200C8823379D15B6B0891B7 /* Pods-EMS Resources App.release.xcconfig */,
+				281484259D89550892592B84 /* Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig */,
+				7AE8722FF192A57E019FC164 /* Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig */,
+				E2BD16FD954710291A681C9D /* Pods-EMS Resources AppTests.debug.xcconfig */,
+				6057D48E90A26A0F9FA33455 /* Pods-EMS Resources AppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56153BA327A4B85A00DA47CF /* EMS Resources App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56153BD127A4B85D00DA47CF /* Build configuration list for PBXNativeTarget "EMS Resources App" */;
+			buildPhases = (
+				6ABD718048F327CB8AFC1B88 /* [CP] Check Pods Manifest.lock */,
+				56153BA027A4B85A00DA47CF /* Sources */,
+				56153BA127A4B85A00DA47CF /* Frameworks */,
+				56153BA227A4B85A00DA47CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EMS Resources App";
+			productName = "EMS Resources App";
+			productReference = 56153BA427A4B85A00DA47CF /* EMS Resources App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56153BBC27A4B85C00DA47CF /* EMS Resources AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56153BD427A4B85D00DA47CF /* Build configuration list for PBXNativeTarget "EMS Resources AppTests" */;
+			buildPhases = (
+				432E2066BFE194AAB85135B6 /* [CP] Check Pods Manifest.lock */,
+				56153BB927A4B85C00DA47CF /* Sources */,
+				56153BBA27A4B85C00DA47CF /* Frameworks */,
+				56153BBB27A4B85C00DA47CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56153BBF27A4B85C00DA47CF /* PBXTargetDependency */,
+			);
+			name = "EMS Resources AppTests";
+			productName = "EMS Resources AppTests";
+			productReference = 56153BBD27A4B85C00DA47CF /* EMS Resources AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56153BC627A4B85C00DA47CF /* EMS Resources AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56153BD727A4B85D00DA47CF /* Build configuration list for PBXNativeTarget "EMS Resources AppUITests" */;
+			buildPhases = (
+				153BFC702EA1BD5E2037D880 /* [CP] Check Pods Manifest.lock */,
+				56153BC327A4B85C00DA47CF /* Sources */,
+				56153BC427A4B85C00DA47CF /* Frameworks */,
+				56153BC527A4B85C00DA47CF /* Resources */,
+				EB43D5AB5E10B9FE064D9B0F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56153BC927A4B85C00DA47CF /* PBXTargetDependency */,
+			);
+			name = "EMS Resources AppUITests";
+			productName = "EMS Resources AppUITests";
+			productReference = 56153BC727A4B85C00DA47CF /* EMS Resources AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56153B9C27A4B85A00DA47CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					56153BA327A4B85A00DA47CF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					56153BBC27A4B85C00DA47CF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 56153BA327A4B85A00DA47CF;
+					};
+					56153BC627A4B85C00DA47CF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 56153BA327A4B85A00DA47CF;
+					};
+				};
+			};
+			buildConfigurationList = 56153B9F27A4B85A00DA47CF /* Build configuration list for PBXProject "EMS Resources App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56153B9B27A4B85A00DA47CF;
+			productRefGroup = 56153BA527A4B85A00DA47CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56153BA327A4B85A00DA47CF /* EMS Resources App */,
+				56153BBC27A4B85C00DA47CF /* EMS Resources AppTests */,
+				56153BC627A4B85C00DA47CF /* EMS Resources AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56153BA227A4B85A00DA47CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56153BB727A4B85C00DA47CF /* LaunchScreen.storyboard in Resources */,
+				56153BB427A4B85C00DA47CF /* Assets.xcassets in Resources */,
+				56153BE327A4BC1600DA47CF /* Podfile in Resources */,
+				56153BAF27A4B85A00DA47CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56153BBB27A4B85C00DA47CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56153BE427A4BC1600DA47CF /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56153BC527A4B85C00DA47CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56153BE527A4BC1600DA47CF /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		153BFC702EA1BD5E2037D880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMS Resources App-EMS Resources AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		432E2066BFE194AAB85135B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMS Resources AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABD718048F327CB8AFC1B88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMS Resources App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB43D5AB5E10B9FE064D9B0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56153BA027A4B85A00DA47CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56153BAC27A4B85A00DA47CF /* ViewController.swift in Sources */,
+				56153BB227A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld in Sources */,
+				56153BA827A4B85A00DA47CF /* AppDelegate.swift in Sources */,
+				56153BAA27A4B85A00DA47CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56153BB927A4B85C00DA47CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56153BC227A4B85C00DA47CF /* EMS_Resources_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56153BC327A4B85C00DA47CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56153BCE27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift in Sources */,
+				56153BCC27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56153BBF27A4B85C00DA47CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56153BA327A4B85A00DA47CF /* EMS Resources App */;
+			targetProxy = 56153BBE27A4B85C00DA47CF /* PBXContainerItemProxy */;
+		};
+		56153BC927A4B85C00DA47CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56153BA327A4B85A00DA47CF /* EMS Resources App */;
+			targetProxy = 56153BC827A4B85C00DA47CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56153BAD27A4B85A00DA47CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56153BAE27A4B85A00DA47CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56153BB527A4B85C00DA47CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56153BB627A4B85C00DA47CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56153BCF27A4B85C00DA47CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56153BD027A4B85C00DA47CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56153BD227A4B85D00DA47CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD131C797FEFD39E8530C467 /* Pods-EMS Resources App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q5S94X2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EMS Resources App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56153BD327A4B85D00DA47CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1200C8823379D15B6B0891B7 /* Pods-EMS Resources App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q5S94X2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EMS Resources App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56153BD527A4B85D00DA47CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BD16FD954710291A681C9D /* Pods-EMS Resources AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q5S94X2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMS Resources App.app/EMS Resources App";
+			};
+			name = Debug;
+		};
+		56153BD627A4B85D00DA47CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6057D48E90A26A0F9FA33455 /* Pods-EMS Resources AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q5S94X2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMS Resources App.app/EMS Resources App";
+			};
+			name = Release;
+		};
+		56153BD827A4B85D00DA47CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281484259D89550892592B84 /* Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q5S94X2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EMS Resources App";
+			};
+			name = Debug;
+		};
+		56153BD927A4B85D00DA47CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE8722FF192A57E019FC164 /* Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Q5S94X2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EMS Resources App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56153B9F27A4B85A00DA47CF /* Build configuration list for PBXProject "EMS Resources App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56153BCF27A4B85C00DA47CF /* Debug */,
+				56153BD027A4B85C00DA47CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56153BD127A4B85D00DA47CF /* Build configuration list for PBXNativeTarget "EMS Resources App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56153BD227A4B85D00DA47CF /* Debug */,
+				56153BD327A4B85D00DA47CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56153BD427A4B85D00DA47CF /* Build configuration list for PBXNativeTarget "EMS Resources AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56153BD527A4B85D00DA47CF /* Debug */,
+				56153BD627A4B85D00DA47CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56153BD727A4B85D00DA47CF /* Build configuration list for PBXNativeTarget "EMS Resources AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56153BD827A4B85D00DA47CF /* Debug */,
+				56153BD927A4B85D00DA47CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56153BB027A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56153BB127A4B85A00DA47CF /* EMS_Resources_App.xcdatamodel */,
+			);
+			currentVersion = 56153BB127A4B85A00DA47CF /* EMS_Resources_App.xcdatamodel */;
+			path = EMS_Resources_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56153B9C27A4B85A00DA47CF /* Project object */;
+}
