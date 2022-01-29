@@ -17,6 +17,7 @@ target 'EMS Resources App' do
     # pod 'Firebase/Auth'
     pod 'Firebase/Firestore'
     pod 'Firebase/Database'
+    
   end
 
 end

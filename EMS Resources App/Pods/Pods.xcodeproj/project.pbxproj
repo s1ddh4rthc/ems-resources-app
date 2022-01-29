@@ -8913,7 +8913,11 @@
 		22B3E99B8E8FECC6267553B07E6BDF3B /* bind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bind.h; path = absl/strings/internal/str_format/bind.h; sourceTree = "<group>"; };
 		22C4E5AFDC48D013A28FE26B7874B01D /* health_check_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = health_check_client.h; path = src/core/ext/filters/client_channel/health/health_check_client.h; sourceTree = "<group>"; };
 		22EC2F286930A1321D7E3D6FA1E9E039 /* ssl_security_connector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl_security_connector.h; path = src/core/lib/security/security_connector/ssl/ssl_security_connector.h; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		2306E9B8525CF26124EC905712167157 /* Pods_EMS_Resources_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMS_Resources_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		2306E9B8525CF26124EC905712167157 /* Pods-EMS Resources App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EMS Resources App"; path = Pods_EMS_Resources_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> Stashed changes
 		230C83311FC810E27429E6392A059B83 /* stream_compression_identity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream_compression_identity.h; path = src/core/lib/compression/stream_compression_identity.h; sourceTree = "<group>"; };
 		23171AF0EA0623752B537A106EF0893A /* alts_crypter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alts_crypter.h; path = src/core/tsi/alts/frame_protector/alts_crypter.h; sourceTree = "<group>"; };
 		231B893647B91C399372F24C600B54B3 /* hpack_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hpack_table.h; path = src/core/ext/transport/chttp2/transport/hpack_table.h; sourceTree = "<group>"; };
@@ -11831,7 +11835,11 @@
 				0A9F46A999C47653013D3AD854352507 /* leveldb.framework */,
 				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
 				B374C9F6A8276C7190390EC5611F36EF /* NavigationDrawer.framework */,
+<<<<<<< Updated upstream
 				2306E9B8525CF26124EC905712167157 /* Pods_EMS_Resources_App.framework */,
+=======
+				2306E9B8525CF26124EC905712167157 /* Pods-EMS Resources App */,
+>>>>>>> Stashed changes
 				B74C0B4B49917428EEF253680FD8D369 /* Pods-EMS Resources App-EMS Resources AppUITests */,
 				0ED5035BC384C53FFC9BB9940B2EA86B /* Pods-EMS Resources AppTests */,
 				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
