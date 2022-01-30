@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3ED5914D1228A4A8636F3172 /* Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB7B1CC214D900E318C22DD /* Pods_EMS_Resources_App_EMS_Resources_AppUITests.framework */; };
 		44580BE103266E46D11A16C5 /* Pods_EMS_Resources_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608C080E2951DA56030D6172 /* Pods_EMS_Resources_App.framework */; };
+		4652819E27A632E9004AD77F /* EmergencyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652819D27A632E9004AD77F /* EmergencyDetails.swift */; };
 		56153BA827A4B85A00DA47CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BA727A4B85A00DA47CF /* AppDelegate.swift */; };
 		56153BAA27A4B85A00DA47CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BA927A4B85A00DA47CF /* SceneDelegate.swift */; };
 		56153BAC27A4B85A00DA47CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56153BAB27A4B85A00DA47CF /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		1200C8823379D15B6B0891B7 /* Pods-EMS Resources App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources App/Pods-EMS Resources App.release.xcconfig"; sourceTree = "<group>"; };
 		281484259D89550892592B84 /* Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4652819D27A632E9004AD77F /* EmergencyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyDetails.swift; sourceTree = "<group>"; };
 		56153BA427A4B85A00DA47CF /* EMS Resources App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMS Resources App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56153BA727A4B85A00DA47CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56153BA927A4B85A00DA47CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				56153BB027A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld */,
 				56153BE227A4BC1600DA47CF /* Podfile */,
 				56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */,
+				4652819D27A632E9004AD77F /* EmergencyDetails.swift */,
 			);
 			path = "EMS Resources App";
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4652819E27A632E9004AD77F /* EmergencyDetails.swift in Sources */,
 				56153BAC27A4B85A00DA47CF /* ViewController.swift in Sources */,
 				56153BB227A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld in Sources */,
 				56153BA827A4B85A00DA47CF /* AppDelegate.swift in Sources */,

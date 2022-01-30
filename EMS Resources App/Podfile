@@ -7,6 +7,8 @@ target 'EMS Resources App' do
 
   # Pods for EMS Resources App
 
+  pod 'NotificationBannerSwift'
+
   target 'EMS Resources AppTests' do
     inherit! :search_paths
     # Pods for testing

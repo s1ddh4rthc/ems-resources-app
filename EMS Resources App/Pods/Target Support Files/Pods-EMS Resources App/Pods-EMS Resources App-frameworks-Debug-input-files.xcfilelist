@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-EMS Resources App/Pods-EMS Resources App-frameworks.sh
-${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework
-${BUILT_PRODUCTS_DIR}/NavigationDrawer/NavigationDrawer.framework
+${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework
+${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

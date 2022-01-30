@@ -377,7 +377,6 @@ PODS:
     - "gRPC-C++ (~> 1.28.0)"
     - leveldb-library (~> 1.22)
     - nanopb (~> 2.30908.0)
-  - FontBlaster (5.2.0)
   - GoogleDataTransport (9.1.0):
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
@@ -411,19 +410,22 @@ PODS:
     - gRPC-Core/Interface (= 1.28.2)
   - gRPC-Core/Interface (1.28.2)
   - leveldb-library (1.22.1)
+  - MarqueeLabel (4.0.5)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - NavigationDrawer (1.0.3)
+  - NotificationBannerSwift (3.0.6):
+    - MarqueeLabel (~> 4.0.5)
+    - SnapKit (~> 5.0.1)
   - PromisesObjC (2.0.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - Firebase/Database
   - Firebase/Firestore
-  - FontBlaster
-  - NavigationDrawer
+  - NotificationBannerSwift
 
 SPEC REPOS:
   trunk:
@@ -434,15 +436,16 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseDatabase
     - FirebaseFirestore
-    - FontBlaster
     - GoogleDataTransport
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
     - leveldb-library
+    - MarqueeLabel
     - nanopb
-    - NavigationDrawer
+    - NotificationBannerSwift
     - PromisesObjC
+    - SnapKit
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -452,16 +455,17 @@ SPEC CHECKSUMS:
   FirebaseCoreDiagnostics: b63732f581a1c6a453ec7241f9ab60b3a5bd3450
   FirebaseDatabase: afc82291f9ed94ff949cec1b9505e8c3b944bc0f
   FirebaseFirestore: e722ba956610c45d368d9787689e2aa41b809e68
-  FontBlaster: b848e9d7b0ed2f2b3ebaf5b83458eb4ff9ba0764
   GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
   GoogleUtilities: 8de2a97a17e15b6b98e38e8770e2d129a57c0040
   "gRPC-C++": 13d8ccef97d5c3c441b7e3c529ef28ebee86fad2
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  NavigationDrawer: ad87622628ed59589f8fe8e2338d27109ca51a64
+  NotificationBannerSwift: 7021be2338f8f29cf424b0aca43da462bf9e2a1a
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: e3ec5927c139e810ba8d5e030fdcd070701ffe75
+PODFILE CHECKSUM: 22c3503b89e7967790d120b6a70b5f2e5d3e8ef8
 
 COCOAPODS: 1.11.2

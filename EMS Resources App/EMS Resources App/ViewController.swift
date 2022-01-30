@@ -8,6 +8,7 @@
 import UIKit
 import MapKit
 import SwiftUI
+import NotificationBannerSwift
 
 class AmbulanceAnnotation: NSObject, MKAnnotation {
     var coordinate: CLLocationCoordinate2D
@@ -91,6 +92,30 @@ class ViewController: UIViewController {
         }
     }
     
+    func showEmergencyAlert() {
+        // let banner = NotificationBanner(title: "Hey", subtitle: "Hi :)", style: .danger)
+        let banner = FloatingNotificationBanner(
+            title: "Incoming Emergency Request",
+            subtitle: "Click to see details",
+            style: .danger
+        )
+        
+        banner.autoDismiss = false
+        banner.haptic = .heavy
+        banner.show()
+        
+        banner.onTap = {
+            // Do something regarding the banner
+            banner.dismiss()
+            let width: Double = 300
+            let x: Double = (Double((self.window?.frame.width)!) - width)/2
+            let height: Double = 300
+            let y: Double = (Double((self.window?.frame.height)!) - height)/2
+            
+            self.view.addSubview(EmergencyDetailView(frame: CGRect(x: x, y: y, width: width, height: height)))
+        }
+    }
+    
 }
 
 extension ViewController: MKMapViewDelegate {
@@ -128,6 +153,8 @@ extension ViewController: CLLocationManagerDelegate {
                 longitudinalMeters: 1000), animated: true)
         
         loadAmbulanceLocations(userCoordinate: userLocation.coordinate)
+        
+        showEmergencyAlert()
         
         manager.stopUpdatingLocation()
     }
