@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SwiftUI
 import NotificationBannerSwift
 
 class EmergencyDetailView : UIView {
@@ -37,7 +36,7 @@ class EmergencyDetailView : UIView {
             y: 45,
             height: 25,
             font: .boldSystemFont(ofSize: 16),
-            text: "East Rutherford Volunteer EMS"))
+            text: "College Park Volunteer EMS"))
         
         addSubview(createLabel(
             y: 70,
@@ -49,7 +48,7 @@ class EmergencyDetailView : UIView {
             y: 100,
             height: 75,
             font: .systemFont(ofSize: 16),
-            text: "Patient address: 450 Hackensack Ave, Hackensack, NJ 07601"))
+            text: "Patient address: 6507 America Blvd, Hyattsville, MD 20782"))
         
         let accept = UIButton(frame: CGRect(x: 20, y: 170, width: 120, height: 40))
         accept.backgroundColor = .systemGreen

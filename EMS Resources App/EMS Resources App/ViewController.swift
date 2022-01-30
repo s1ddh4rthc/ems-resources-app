@@ -7,7 +7,6 @@
 
 import UIKit
 import MapKit
-import SwiftUI
 import NotificationBannerSwift
 
 class AmbulanceAnnotation: NSObject, MKAnnotation {
@@ -29,6 +28,9 @@ class ViewController: UIViewController {
     var locationManager: CLLocationManager?
     
     var currentDetailView: UIView?
+    
+    var ambulanceAnnotations: [MKAnnotation] = []
+    var requestAnnotations: [MKAnnotation] = []
     
     let ambulanceCoordinates: [CLLocationCoordinate2D] = [
         CLLocationCoordinate2D(latitude: 38.896849, longitude: -77.036683),
@@ -79,7 +81,7 @@ class ViewController: UIViewController {
     }
     
     func loadAmbulanceLocations(userCoordinate: CLLocationCoordinate2D!) {
-        mapView?.removeAnnotations(mapView!.annotations)
+        mapView?.removeAnnotations(ambulanceAnnotations)
         
         for coords in ambulanceCoordinates {
             var distance: Double = 0
@@ -90,12 +92,26 @@ class ViewController: UIViewController {
             (longitudalDistance * longitudalDistance + latitudalDistance * latitudalDistance).squareRoot()
             distance = degreeDistance * 288200 / 5280 // Convert to feet, then to miles
             
-            mapView?.addAnnotation(
-                AmbulanceAnnotation(
-                    coordinate: coords,
-                    title: "Ambulance",
-                    subtitle: NSString(format: "%.2f mi", distance) as String))
+            let ambulanceAnnotation = AmbulanceAnnotation(
+                coordinate: coords,
+                title: "Ambulance",
+                subtitle: NSString(format: "%.2f mi", distance) as String)
+            
+            ambulanceAnnotations.append(ambulanceAnnotation)
+            
+            mapView?.addAnnotation(ambulanceAnnotation)
         }
+    }
+    
+    func addRequestPin(latitude: Double, longitude: Double) {
+        let pin = MKPointAnnotation()
+        pin.coordinate = CLLocationCoordinate2D(
+            latitude: latitude as CLLocationDegrees,
+            longitude: longitude as CLLocationDegrees)
+        pin.title = "Ambulance Request"
+        
+        requestAnnotations.append(pin)
+        mapView?.addAnnotation(pin)
     }
     
     func showEmergencyAlert() {
