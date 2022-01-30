@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     var mapView: MKMapView?
     var locationManager: CLLocationManager?
     
+    var currentDetailView: UIView?
+    
     let ambulanceCoordinates: [CLLocationCoordinate2D] = [
         CLLocationCoordinate2D(latitude: 38.896849, longitude: -77.036683),
         CLLocationCoordinate2D(latitude: 38.947879, longitude: -76.871821),
@@ -69,6 +71,10 @@ class ViewController: UIViewController {
         if CLLocationManager.locationServicesEnabled() {
             self.locationManager?.startUpdatingLocation()
             mapView?.showsUserLocation = true
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+                self.showEmergencyAlert()
+             }
         }
     }
     
@@ -87,7 +93,7 @@ class ViewController: UIViewController {
             mapView?.addAnnotation(
                 AmbulanceAnnotation(
                     coordinate: coords,
-                    title: "Hey :)",
+                    title: "Ambulance",
                     subtitle: NSString(format: "%.2f mi", distance) as String))
         }
     }
@@ -109,10 +115,13 @@ class ViewController: UIViewController {
             banner.dismiss()
             let width: Double = 300
             let x: Double = (Double((self.window?.frame.width)!) - width)/2
-            let height: Double = 300
+            let height: Double = 225
             let y: Double = (Double((self.window?.frame.height)!) - height)/2
             
-            self.view.addSubview(EmergencyDetailView(frame: CGRect(x: x, y: y, width: width, height: height)))
+            self.currentDetailView?.removeFromSuperview()
+            self.currentDetailView = EmergencyDetailView(frame: CGRect(x: x, y: y, width: width, height: height))
+            
+            self.view.addSubview(self.currentDetailView!)
         }
     }
     
@@ -153,8 +162,6 @@ extension ViewController: CLLocationManagerDelegate {
                 longitudinalMeters: 1000), animated: true)
         
         loadAmbulanceLocations(userCoordinate: userLocation.coordinate)
-        
-        showEmergencyAlert()
         
         manager.stopUpdatingLocation()
     }
