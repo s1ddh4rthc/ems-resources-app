@@ -30,6 +30,15 @@
 		56153BF227A50DC300DA47CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 56153BF127A50DC300DA47CF /* FirebaseAuth */; };
 		56153BF427A50DC300DA47CF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 56153BF327A50DC300DA47CF /* FirebaseDatabase */; };
 		56153BF627A50DC300DA47CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 56153BF527A50DC300DA47CF /* FirebaseFirestore */; };
+		56C5F62427A65BF50070C4C3 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62327A65BF50070C4C3 /* RequestViewController.swift */; };
+		56C5F62527A65BF50070C4C3 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62327A65BF50070C4C3 /* RequestViewController.swift */; };
+		56C5F62627A65BF50070C4C3 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62327A65BF50070C4C3 /* RequestViewController.swift */; };
+		56C5F62827A66BB60070C4C3 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62727A66BB60070C4C3 /* RegistrationViewController.swift */; };
+		56C5F62927A66BB60070C4C3 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62727A66BB60070C4C3 /* RegistrationViewController.swift */; };
+		56C5F62A27A66BB60070C4C3 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62727A66BB60070C4C3 /* RegistrationViewController.swift */; };
+		56C5F62C27A66C0B0070C4C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62B27A66C0B0070C4C3 /* LoginViewController.swift */; };
+		56C5F62D27A66C0B0070C4C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62B27A66C0B0070C4C3 /* LoginViewController.swift */; };
+		56C5F62E27A66C0B0070C4C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5F62B27A66C0B0070C4C3 /* LoginViewController.swift */; };
 		8B01F3BC327B124667DA8D5E /* Pods_EMS_Resources_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D429923D6FC798381DD38FE8 /* Pods_EMS_Resources_AppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +77,11 @@
 		56153BC727A4B85C00DA47CF /* EMS Resources AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EMS Resources AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56153BCB27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMS_Resources_AppUITests.swift; sourceTree = "<group>"; };
 		56153BCD27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMS_Resources_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		56153BE227A4BC1600DA47CF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		56153BE227A4BC1600DA47CF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		56C5F62327A65BF50070C4C3 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		56C5F62727A66BB60070C4C3 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		56C5F62B27A66C0B0070C4C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6057D48E90A26A0F9FA33455 /* Pods-EMS Resources AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources AppTests.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources AppTests/Pods-EMS Resources AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		608C080E2951DA56030D6172 /* Pods_EMS_Resources_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMS_Resources_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE8722FF192A57E019FC164 /* Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig"; path = "Target Support Files/Pods-EMS Resources App-EMS Resources AppUITests/Pods-EMS Resources App-EMS Resources AppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +158,8 @@
 		56153BA627A4B85A00DA47CF /* EMS Resources App */ = {
 			isa = PBXGroup;
 			children = (
+				56C5F62727A66BB60070C4C3 /* RegistrationViewController.swift */,
+				56C5F62B27A66C0B0070C4C3 /* LoginViewController.swift */,
 				56153BA727A4B85A00DA47CF /* AppDelegate.swift */,
 				56153BA927A4B85A00DA47CF /* SceneDelegate.swift */,
 				56153BAB27A4B85A00DA47CF /* ViewController.swift */,
@@ -157,6 +171,7 @@
 				56153BE227A4BC1600DA47CF /* Podfile */,
 				56153BEA27A4CAD200DA47CF /* GoogleService-Info.plist */,
 				4652819D27A632E9004AD77F /* EmergencyDetails.swift */,
+				56C5F62327A65BF50070C4C3 /* RequestViewController.swift */,
 			);
 			path = "EMS Resources App";
 			sourceTree = "<group>";
@@ -447,7 +462,10 @@
 			files = (
 				4652819E27A632E9004AD77F /* EmergencyDetails.swift in Sources */,
 				56153BAC27A4B85A00DA47CF /* ViewController.swift in Sources */,
+				56C5F62427A65BF50070C4C3 /* RequestViewController.swift in Sources */,
 				56153BB227A4B85A00DA47CF /* EMS_Resources_App.xcdatamodeld in Sources */,
+				56C5F62C27A66C0B0070C4C3 /* LoginViewController.swift in Sources */,
+				56C5F62827A66BB60070C4C3 /* RegistrationViewController.swift in Sources */,
 				56153BA827A4B85A00DA47CF /* AppDelegate.swift in Sources */,
 				56153BAA27A4B85A00DA47CF /* SceneDelegate.swift in Sources */,
 			);
@@ -457,6 +475,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C5F62D27A66C0B0070C4C3 /* LoginViewController.swift in Sources */,
+				56C5F62927A66BB60070C4C3 /* RegistrationViewController.swift in Sources */,
+				56C5F62527A65BF50070C4C3 /* RequestViewController.swift in Sources */,
 				56153BC227A4B85C00DA47CF /* EMS_Resources_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +488,9 @@
 			files = (
 				56153BCE27A4B85C00DA47CF /* EMS_Resources_AppUITestsLaunchTests.swift in Sources */,
 				56153BCC27A4B85C00DA47CF /* EMS_Resources_AppUITests.swift in Sources */,
+				56C5F62A27A66BB60070C4C3 /* RegistrationViewController.swift in Sources */,
+				56C5F62E27A66C0B0070C4C3 /* LoginViewController.swift in Sources */,
+				56C5F62627A65BF50070C4C3 /* RequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +670,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-App-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -679,7 +703,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-App-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siddharth-Cherukupalli.EMS-Resources-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
